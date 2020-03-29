@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap');
+
+
+:root {
+    --primary-color: #ff4c68;
+    --secondary-color: #ef8172;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/* === NAV BAR === */
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+/* === TITLE === */
+
+#title {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#title h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.title-text {
+    text-align: left;
+}
+
+.nav-container {
+    padding: 3% 15% 10%;
+}
+
+.download-btn {
+    margin: 20px 30px 0 0;
+    font-size: 20px;
+}
+
+.title-img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+
+
+/* === FEATURES ===*/
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+
+#features h3 {
+    font-size: 1.33rem;
+}
+
+.feature-box {
+    
+    padding: 5%;
+}
+
+.feature-box p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: var(--primary-color);
+}
+
+/* === TESTIMONIALS === */
+
+#testimonials {
+    
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.testimonial-img {
+    width: 13%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+/* === PRESS === */
+
+#press {
+    background-color: var(--secondary-color);
+    padding: 0 15% 7% 15%;
+    
+}
+
+#press img {
+    width: 15%;
+    margin: 0 20px;
+}
+
+/* === PRICING === */
+
+#pricing {
+    padding: 100px;
+    
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* === CTA === */
+
+#cta {
+    background-color: var(--primary-color); 
+    padding: 10% 20%;
+}
+
+#cta h3 {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+/* === FOOTER === */
+
+footer {
+    
+    padding: 5%;
+}
+
+footer i {
+    margin: 0 15px 15px 0;
+}
+
+footer a {
+    color: black;
+}
+
+/* === MOBILE RESPONSIVE === */
+
+@media (max-width: 1028px) {
+    .title-text {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        padding-top: 20px;
+    }
+}
+
